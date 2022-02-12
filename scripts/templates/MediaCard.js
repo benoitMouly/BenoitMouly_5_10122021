@@ -39,7 +39,7 @@ class MediaCard{
       </a>
       <div class="image-infos">
         <h2 class="image-titre">${this._media.title}</h2>
-        <div class="image-likes"> <span class="number-like">${this._media.likes}</span> <i class="far fa-heart heart-iterate" role="button" aria-label="likes"></i></div>
+        <div class="image-likes"> <span class="number-like">${this._media.likes}</span> <span class="far fa-heart heart-iterate" role="button" aria-label="likes"></span></div>
       </div>
     </div>
     </div>

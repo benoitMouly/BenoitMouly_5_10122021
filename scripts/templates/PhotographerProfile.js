@@ -20,7 +20,7 @@ class PhotographerProfile {
           <img class="user-pic-element" src="assets/photographers/${this._photographer.portrait}" alt="Photo de profil du photographe ${this._photographer.name}"/>
         </div>
         <div class="tab-bottom">
-        <div class="compteur-like"><p class="total-likes">297 081</p> <i class="fas fa-heart" aria-hidden="true"></i></div>
+        <div class="compteur-like"><p class="total-likes">297 081</p> <span class="fas fa-heart heart-bottom" aria-hidden="true"></span></div>
         <div class="tjm-photographer">${this._photographer.price}€/jour</div>
         </div>
         `

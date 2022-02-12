@@ -178,14 +178,14 @@ class Lightbox{
                 <div class="player">
                     <div class="cols">
                         <div class="col1">
-                            <button class="slide-left slider lightbox__prev" name="Previous image" role="Link"><i class="fas fa-chevron-left" alt="prev"></i></button>
+                            <button class="slide-left slider lightbox__prev" name="Previous image" role="Link"><span class="fas fa-chevron-left" alt="prev"></span></button>
                         </div>
                         <div class="col2 mySlides lightbox__container">
 
                         </div>
                         <div class="col3">
-                            <button class="close-btn lightbox__close" name="Close dialog"> <i class="fas fa-times" alt="close"></i> </button>
-                            <button class="slide-right slider lightbox__next" name="Next image" role="Link"><i class="fas fa-chevron-right" alt="next"></i></button>
+                            <button class="close-btn lightbox__close" name="Close dialog"> <span class="fas fa-times" alt="close"></span> </button>
+                            <button class="slide-right slider lightbox__next" name="Next image" role="Link"><span class="fas fa-chevron-right" alt="next"></span></button>
                         </div>
                     </div>
                 </div>                
