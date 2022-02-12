@@ -10,8 +10,8 @@ class MediaCard{
       const mediaCardImage = `
       <div class="gallery-image">
       <div class="image-container">
-        <a href="/assets/gallery/${this._media.image}" class="image-unique link-box" alt="${this._media.title}">
-          <img src="/assets/gallery/${this._media.image}" class="pic-photographer" alt="${this._media.title}" role="img">
+        <a href="assets/gallery/${this._media.image}" class="image-unique link-box" alt="${this._media.title}">
+          <img src="assets/gallery/${this._media.image}" class="pic-photographer" alt="${this._media.title}" role="img">
         </a>
         <div class="image-infos">
           <h2 class="image-titre">${this._media.title}</h2>
@@ -30,9 +30,9 @@ class MediaCard{
     const mediaCardVideo = `
     <div class="gallery-image">
     <div class="image-container">
-      <a href="/assets/gallery/${this._media.video}" class="video-unique link-box" alt="${this._media.title}">
+      <a href="assets/gallery/${this._media.video}" class="video-unique link-box" alt="${this._media.title}">
         <video controls width="250" class="pic-photographer">
-        <source src="/assets/gallery/${this._media.video}"
+        <source src="assets/gallery/${this._media.video}"
                 type="video/mp4" alt="${this._media.title}">
         Sorry, your browser doesn't support embedded videos.
       </video>

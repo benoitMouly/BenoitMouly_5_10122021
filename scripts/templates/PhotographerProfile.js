@@ -17,7 +17,7 @@ class PhotographerProfile {
         <button id="contact_button" class="contact-button">Contactez-moi</button>
 
         <div class="user-pic">
-          <img class="user-pic-element" src="/assets/photographers/${this._photographer.portrait}" alt="Photo de profil du photographe ${this._photographer.name}"/>
+          <img class="user-pic-element" src="assets/photographers/${this._photographer.portrait}" alt="Photo de profil du photographe ${this._photographer.name}"/>
         </div>
         <div class="tab-bottom">
         <div class="compteur-like"><p class="total-likes">297 081</p> <i class="fas fa-heart" aria-hidden="true"></i></div>
