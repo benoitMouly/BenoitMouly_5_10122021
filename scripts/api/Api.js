@@ -26,7 +26,7 @@ class PhotographerApi extends Api {
     }
 
     async getPhotographers() {
-        return fetch("../data/photographers.json")
+        return fetch("data/photographers.json")
         .then(res => res.json())
         .then(res => res.photographers)
         .catch(err => console.log('an error occurs', err))
@@ -34,7 +34,7 @@ class PhotographerApi extends Api {
     }
 
     async getMedias() {
-        return fetch("../data/photographers.json")
+        return fetch("data/photographers.json")
         .then(res => res.json())
         .then(res => res.medias)
         .catch(err => console.log('an error occurs', err))
