@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+    <meta charset="utf-8">
+    
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/364d7013b0.js" crossorigin="anonymous"></script>
+    <script src="scripts/utils/dropDown.js"></script>
+    
+    <title>Fisheye - photographe </title>
+
+  </head>
+  <body>
+
+    <header>
+      <a href="/"><img src="assets/images/logo.png" class="logo" alt="logo de FishEye - Page d'accueil" tabindex="0"/></a>
+    </header>
+
+    <main id="main" aria-hidden="false">
+      <div id="main_photograph-header">
+        <div class="photograph-header"></div>
+      </div>
+      <!-- FIN HEADER PHOTOGRAPHER-->
+
+    <div class="dropdownBox">
+        <p class="sortBy" aria-label="Order by">Trier par : </p>
+          <div class="dropdown">
+              <button onclick="toggler()" id="selectContainer" class="dropbtn iconic selectedValue" aria-haspopup="true"><span class="valueText">----</span><i id="icon" class="fas fa-chevron-down"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <div class="innerMain">&nbsp;</div>
+              <a href="#" class="underlined onselect" onclick="selected('Popularité')">Popularité</a>
+              <div class="innerSecond innerPopularity">&nbsp;</div>
+              <a href="#" class="underlined onselect" onclick="selected('Date')">Date</a>
+              <div class="innerThird innerDate">&nbsp;</div>
+              <a href="#" class="underlined onselect" onclick="selected('Titre')">Titre</a>
+            </div>
+          </div>
+    </div>
+
+      <section class="gallery">
+      </section>
+    </main>
+
+		</div>
+    
+    <!-- Factories -->
+    <script src="/scripts/factories/Photographer.js"></script>
+
+    <!-- Models -->
+    <script src="/scripts/models/Photographer.js"></script>
+    <script src="/scripts/models/Medias.js"></script>
+    <script src="/scripts/adapters/FilterAdapter.js"></script>
+
+
+    <!-- Templates -->
+    <script src="/scripts/templates/PhotographerCard.js"></script>
+    <script src="/scripts/templates/PhotographerProfile.js"></script>
+    <script src="/scripts/templates/MediaCard.js"></script>
+    <script src="/scripts/templates/FilterForm.js"></script>
+    <script src="/scripts/templates/Contact.js"></script>
+
+    <!-- Lib -->
+    <script src="/scripts/lib/filter.js"></script>
+    <script src="/scripts/lib/checker.js"></script>
+
+
+    <!-- Api -->
+    <script src="/scripts/api/Api.js"></script>
+
+    <!-- Entry point -->
+    <script src="/scripts/App.js"></script>
+    <!-- <script src="scripts/pages/photographer.js"></script> -->
+    
+    <!-- Utils -->
+    <script src="/scripts/utils/lightbox.js"></script>
+    <script src="/scripts/utils/calculette.js"></script>
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+/*
+▧▧▧▧▧▧▧▧▧▧▧▧▧
+Header Photograph ▧▧▧▧▧▧▧▧
+▧▧▧▧▧▧▧▧▧▧▧▧▧
+*/
+.img-photographer{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.photographer-city-country{
+    color: #901C1C;
+}
+
+.photographer-name{
+    margin-bottom: 0px;
+}
+
+.photographer-city-country{
+    margin: 0px;
+}
+
+.photographer-tagline{
+    margin: 0px;
+    font-weight: 500;
+}
+
+.photographer-price{
+    margin: 0px;
+    color: #525252;
+}
+
+.photographer-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
