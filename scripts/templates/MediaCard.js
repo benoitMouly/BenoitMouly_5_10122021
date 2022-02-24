@@ -1,7 +1,7 @@
 class MediaCard{
   constructor(media) {
       this._media = media
-      this.$wrapper = document.createElement('div')
+      this.$wrapper = document.createElement('article')
       this.$wrapper.classList.add('element-box-self')
   }
 

@@ -35,7 +35,7 @@ class FilterForm {
 
         this.clearMediasWrapper()
         const AdaptedFilterLib = new FilterMediasAdapter(this.Medias, selectedDate) // nouvel Adaptater
-        const FilteredMediasDate = await AdaptedFilterLib.filterByDate() // filterByTitle est la fonction qui filtre les medias
+        const FilteredMediasDate = await AdaptedFilterLib.filterByDate()
 
         FilteredMediasDate.forEach(media => {
 
@@ -58,8 +58,7 @@ class FilterForm {
 
         this.clearMediasWrapper()
         const AdaptedFilterLib = new FilterMediasAdapter(this.Medias, selectedPopularity) // nouvel Adaptater
-        const FilteredMediasPopularity = await AdaptedFilterLib.filterByPopularity() // filterByTitle est la fonction qui filtre les medias
-
+        const FilteredMediasPopularity = await AdaptedFilterLib.filterByPopularity() 
         FilteredMediasPopularity.forEach(media => {
 
             const template = new MediaCard(media)
@@ -77,6 +76,15 @@ class FilterForm {
         Calculette.init();
     }
 
+
+
+
+    /**
+     * @function onChangeFilter détecte quel option est choisie par son innerText
+     */
+
+
+    
     onChangeFilter() {
         let tric = document.querySelector('#selectContainer')
 
@@ -122,3 +130,6 @@ class FilterForm {
         this.onChangeFilter()
     }
 }
+
+
+

@@ -5,7 +5,6 @@ class PhotographerProfile {
 
     createPhotographerProfile() {
         const $wrapper = document.querySelector('.photograph-header')
-        // $wrapper.classList.add('photographer_card')
 
         const photographerHeader = `
         <div class="photograph-profile">

@@ -68,6 +68,7 @@ class App {
             .map(media => new Media(media))
             for(var i = 0; i < mediasData.length; i ++){
                 var media = mediasData[i];
+
                 const template = new MediaCard(media) // on créé un nouveau modele
 
                 if(media.photographerId == this.idPage && media.image && !media.video){

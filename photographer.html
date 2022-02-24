@@ -21,12 +21,12 @@
     </header>
 
     <main id="main" aria-hidden="false">
-      <div id="main_photograph-header">
+      <section id="main_photograph-header">
         <div class="photograph-header"></div>
-      </div>
+      </section>
       <!-- FIN HEADER PHOTOGRAPHER-->
 
-    <div class="dropdownBox">
+    <section class="dropdownBox">
         <p class="sortBy" aria-label="Order by">Trier par : </p>
           <div class="dropdown">
               <button onclick="toggler()" id="selectContainer" class="dropbtn iconic selectedValue" aria-haspopup="true"><span class="valueText">----</span><span id="icon" class="fas fa-chevron-down"></span></button>
@@ -39,7 +39,7 @@
               <a href="#" class="underlined onselect" onclick="selected('Titre')">Titre</a>
             </div>
           </div>
-    </div>
+        </section>
 
       <section class="gallery">
       </section>
@@ -47,8 +47,6 @@
 
 		</div>
     
-    <!-- Factories -->
-    <script src="scripts/factories/Photographer.js"></script>
 
     <!-- Models -->
     <script src="scripts/models/Photographer.js"></script>

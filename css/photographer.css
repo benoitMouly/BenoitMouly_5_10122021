@@ -612,7 +612,7 @@ background-color: rgba(230, 230, 230, 0.9);
 }
 .lightbox__prev, .lightbox__next, .lightbox__close{
     border: none;
-    background-color: white;
+    background-color: transparent;
     cursor: pointer;
     font-size: 2rem;
 }
@@ -624,4 +624,6 @@ background-color: rgba(230, 230, 230, 0.9);
 .lightbox__close{
     position: absolute;
     top: 2%;
+    /* top: 5%;
+    right: 1%; */
 }
