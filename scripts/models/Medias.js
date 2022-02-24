@@ -12,13 +12,11 @@ class Media {
 
 
     get imgMedia() {
-        // return `/assets/gallery/${this._image}`
         return this._image
     }
 
     get mediaVideo(){
         return this._video
-        // return `/assets/gallery/${this._video}`
     }
 
     get mediaId() {

@@ -19,7 +19,8 @@ class PhotographerContact {
             })
         }
 
-        
+    // Batterie de test grâce à notre checker dans la lib
+
     getInfo(e){
         const Check = new Checker()
         Check.checkit(e)
@@ -29,7 +30,7 @@ class PhotographerContact {
 
     updateName(){
         const updateCheckName = new Checker()
-        updateCheckName.testnames()
+        updateCheckName.testnames() // Je passe la function d e Checker qui concerne
     }
     updateEmail(){
         const updateCheckEmail = new Checker()
@@ -92,6 +93,8 @@ class PhotographerContact {
             </form>
         </div>
         `
+
+        // On passe tous les addEventListener
         contact.querySelector('.btn-closeit').addEventListener('click', this.close.bind(this))
         contact.querySelector('.contact-send').addEventListener('click', this.getInfo.bind(this))
         contact.querySelector('#name-content').addEventListener("change", this.updateName.bind(this));
